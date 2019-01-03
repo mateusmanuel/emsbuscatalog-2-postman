@@ -9,7 +9,7 @@ module.exports.go = function () {
 
     program
         .version(version, '-v, --version')
-        .option('-i, --input [folder]', 'folder to recursively scan for REST Docs curl-request.adoc/md files', '.')
+        .option('-i, --input [folder]', 'folder to recursively scan for catalog service files', '.')
         .option('-o, --output [file]', 'output file', 'ems-bus-catalog.postman_collection.json')
         .parse(process.argv);
 
@@ -17,7 +17,7 @@ module.exports.go = function () {
     const result = converter.convert({
         folderToScan: program.input,
     });
-    
+
     // Output/write result
     if (program.output) {
         const fullOutputPath = path.resolve(program.output);
