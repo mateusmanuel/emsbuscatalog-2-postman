@@ -1,0 +1,23 @@
+{
+  "name": "emsbuscatalog-2-postman",
+  "version": "1.0.0",
+  "description": "Ems-bus services catalog converter for Postman Collection",
+  "main": "index.js",
+  "bin": {
+    "restdocs-to-postman": "./bin/cli"
+  },
+  "dependencies": {
+    "commander": "^2.19.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "converter",
+    "catalog",
+    "ems-bus",
+    "postman"
+  ],
+  "author": "Mateus Manuel",
+  "license": "GPL-3.0"
+}
