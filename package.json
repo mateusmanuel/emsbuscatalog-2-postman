@@ -1,10 +1,10 @@
 {
   "name": "emsbuscatalog-2-postman",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Ems-bus services catalog converter for Postman Collection",
   "main": "index.js",
   "bin": {
-    "restdocs-to-postman": "./bin/cli"
+    "emsbuscatalog-2-postman": "./bin/cli"
   },
   "dependencies": {
     "commander": "^2.19.0"
